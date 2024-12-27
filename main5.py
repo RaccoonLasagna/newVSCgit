@@ -7,7 +7,7 @@ class Simple_drawing_window(QWidget):
     def __init__(self):
         QWidget.__init__(self,None)
         self.setWindowTitle("a")
-        self.rabbit=QPixmap("images/rabbit.png")
+        self.rabbit=QPixmap("nerd.jpg")
 
     def paintEvent(self,e):
         p=QPainter()
