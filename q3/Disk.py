@@ -33,6 +33,8 @@ class Disk(object):
     def cleardisk(self):
         t.color("white")
 
+        t.penup()
+        t.goto(self.dxpos, self.dypos)
         t.pendown()
         t.fd(self.dwidth // 2)
         t.left(90)
