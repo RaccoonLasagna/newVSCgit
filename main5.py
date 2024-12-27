@@ -23,7 +23,7 @@ class Simple_drawing_window5(QWidget):
         p.end()
 def main():
     app=QApplication(sys.argv)
-    w=Simple_drawing_window()
+    w=Simple_drawing_window5()
     w.show()
     return app.exec()
 if __name__=="__main__":
